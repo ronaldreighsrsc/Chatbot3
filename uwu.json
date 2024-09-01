@@ -1,0 +1,487 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Buenos días",
+        "Buenas tardes",
+        "¿Qué tal?",
+        "¿Cómo estás?",
+        "Hola, ¿cómo estás?",
+        "Hola, ¿cómo te va?",
+        "¡Hey!",
+        "Hola, amigo",
+        "¡Hola!",
+        "Hola a todos"
+      ],
+      "responses": [
+        "¡Hola! ¿Cómo puedo ayudarte hoy?",
+        "¡Hola! ¿Qué necesitas?",
+        "¡Hola! ¿En qué puedo asistirte?",
+        "¡Hola! Espero que tengas un buen día. ¿En qué puedo ayudarte?",
+        "¡Hola! ¿Qué puedo hacer por ti hoy?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adiós",
+        "Hasta luego",
+        "Nos vemos",
+        "Chao",
+        "Gracias, adiós",
+        "Adiós, que tengas un buen día",
+        "Hasta la próxima",
+        "Chau",
+        "Hasta pronto",
+        "Me voy"
+      ],
+      "responses": [
+        "¡Adiós! ¡Espero verte pronto!",
+        "¡Hasta luego! ¡Gracias por visitarnos!",
+        "Nos vemos, ¡vuelve pronto!",
+        "¡Adiós! ¡Que tengas un buen día!",
+        "¡Cuídate! ¡Hasta luego!"
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "Gracias",
+        "Muchas gracias",
+        "Gracias por la ayuda",
+        "Gracias por la información",
+        "Te agradezco",
+        "Gracias, muy amable",
+        "Estoy muy agradecido",
+        "Gracias por tu tiempo",
+        "Gracias por tu apoyo"
+      ],
+      "responses": [
+        "¡De nada! ¡Estoy aquí para ayudarte!",
+        "¡No hay de qué! ¡Siempre a tu servicio!",
+        "¡Fue un placer ayudarte!",
+        "¡Estoy feliz de poder ayudarte!",
+        "¡No te preocupes! ¡Cualquier cosa, estoy aquí!"
+      ]
+    },
+    {
+      "tag": "horario_atencion",
+      "patterns": [
+        "¿Cuál es el horario de atención?",
+        "¿Qué horario tienen?",
+        "¿A qué hora abren?",
+        "¿A qué hora cierran?",
+        "Horario de atención",
+        "Horas de servicio",
+        "¿Cuál es el horario de la oficina?",
+        "Horario de la recaudación",
+        "Horario del área de recaudación"
+      ],
+      "responses": [
+        "Nuestro horario de atención es:\n\nLunes a Jueves: 09:00 a 15:30 hrs\nViernes: 09:00 a 15:00 hrs\n\nHorario Vespertino:\nLunes a Jueves: 18:00 a 21:00 hrs\nViernes: 17:00 a 20:00 hrs",
+        "Atendemos en los siguientes horarios:\n\nLunes a Jueves: 09:00 a 15:30 hrs\nViernes: 09:00 a 15:00 hrs\n\nHorario Vespertino:\nLunes a Jueves: 18:00 a 21:00 hrs\nViernes: 17:00 a 20:00 hrs",
+        "Nuestros horarios de operación son:\n\nLunes a Jueves: 09:00 a 15:30 hrs\nViernes: 09:00 a 15:00 hrs\n\nHorario Vespertino:\nLunes a Jueves: 18:00 a 21:00 hrs\nViernes: 17:00 a 20:00 hrs"
+      ]
+    },
+    {
+      "tag": "inscripcion_sin_prerequisito",
+      "patterns": [
+        "¿Cómo me inscribo en asignaturas sin prerrequisito?",
+        "Instrucciones para inscribirme sin prerrequisito",
+        "Inscripción sin prerrequisito",
+        "Guía para inscribirme en asignaturas sin prerrequisito"
+      ],
+      "responses": [
+        "Para inscribirte en asignaturas sin prerrequisito, sigue estos pasos:\n1. Ingresa a la intranet.\n2. Dirígete a 'Registro Curricular -> Solicitud Académica'.\n3. Pulsa el botón 'Solicitar' y sigue estos pasos:\n    - Paso 1: Selecciona el periodo de la solicitud.\n    - Paso 2: Selecciona el tipo de solicitud.\n    - Paso 3: Ingresa el motivo de la solicitud. Este será leído por el Jefe de Carrera y el Director de Docencia.\n    - Paso 4: Agrega las asignaturas. No hay límite para agregar asignaturas, pero solo se ofrecerán las disponibles en el periodo seleccionado."
+      ]
+    },
+    {
+      "tag": "plazos_inscripcion",
+      "patterns": [
+        "¿Cuáles son los plazos de inscripción?",
+        "Plazos de inscripción para el segundo semestre",
+        "¿Hasta cuándo puedo inscribirme?",
+        "Fechas de inscripción de asignaturas"
+      ],
+      "responses": [
+        "Las fechas de inscripción para asignaturas en el segundo semestre de 2024 son:\n- 05 al 16 de agosto: Solicitudes de inscripción de asignaturas fuera de plazo en la Secretaría de la carrera.\n- 12 al 14 de agosto: Inscripción de asignaturas extracurriculares en la oficina de Registraduría.\n- 12 de agosto a partir del mediodía hasta el 14 de agosto: Solicitudes para cursar asignaturas sin prerrequisito en la intranet del estudiante.\n- Hasta el 20 de agosto: Análisis de solicitudes por parte de las jefaturas de carreras y envían sugerencias a la Dirección de Docencia.\n- Hasta el 22 de agosto: Resolución de solicitudes por parte de la Dirección de Docencia."
+      ]
+    },
+    {
+      "tag": "calendario_enero",
+      "patterns": [
+        "¿Qué actividades hay en enero?",
+        "Calendario de enero 2024",
+        "Eventos en enero 2024"
+      ],
+      "responses": [
+        "Actividades en enero 2024:\n- 20: Inicio Proceso de matrícula, estudiantes antiguos(as)\n- 20 de enero al 10 de marzo: Inscripción obligatoria de actividades curriculares primer semestre 2024, vía intranet, estudiantes antiguos(as)\n- 29: Inicio receso de actividades académicas."
+      ]
+    },
+    {
+      "tag": "calendario_febrero",
+      "patterns": [
+        "¿Qué actividades hay en febrero?",
+        "Calendario de febrero 2024",
+        "Eventos en febrero 2024"
+      ],
+      "responses": [
+        "Actividades en febrero 2024:\n- 26: Inicio de actividades académicas, año 2024.\n- 27 febrero al 08 de marzo: Temporada extraordinaria exámenes año 2023, plan semestral, carrera de Derecho, casa central."
+      ]
+    },
+    {
+      "tag": "calendario_marzo",
+      "patterns": [
+        "¿Qué actividades hay en marzo?",
+        "Calendario de marzo 2024",
+        "Eventos en marzo 2024"
+      ],
+      "responses": [
+        "Actividades en marzo 2024:\n- 04: Inicio del primer semestre académico 2024, estudiantes nuevos.\n- 04 al 15: Temporada extraordinaria exámenes año 2023, plan anual, carrera de Derecho, casa central.\n- 10: Vence plazo matrícula para estudiantes nuevos y antiguos que poseen beneficios ministeriales o JUNAEB.\n- 11: Inicio del primer semestre académico 2024, estudiantes antiguos.\n- 18: Vence plazo de ingreso de actas de calificación final, correspondiente al 2do. Semestre 2023, carrera de Derecho.\n- 28: Vence plazo de matrícula y regularización de situación financiera de estudiantes antiguos(as)."
+      ]
+    },
+    {
+      "tag": "calendario_abril",
+      "patterns": [
+        "¿Qué actividades hay en abril?",
+        "Calendario de abril 2024",
+        "Eventos en abril 2024"
+      ],
+      "responses": [
+        "Actividades en abril 2024:\n- 22 al 26: Semana Mechona. Suspensión de clases, a excepción de prácticas e internados."
+      ]
+    },
+    {
+      "tag": "calendario_mayo",
+      "patterns": [
+        "¿Qué actividades hay en mayo?",
+        "Calendario de mayo 2024",
+        "Eventos en mayo 2024"
+      ],
+      "responses": [
+        "Actividades en mayo 2024:\n- 29 y 30: Clases sin evaluaciones.\n- 10: Última fecha para registrar primeras evaluaciones, todas las carreras."
+      ]
+    },
+    {
+      "tag": "calendario_julio",
+      "patterns": [
+        "¿Qué actividades hay en julio?",
+        "Calendario de julio 2024",
+        "Eventos en julio 2024"
+      ],
+      "responses": [
+        "Actividades en julio 2024:\n- 05: Término del primer semestre académico 2024, todas aquellas carreras con asignaturas que no cuenten con prueba optativa.\n- 08 al 19: Periodo de examen acumulativo y de repetición carrera de Medicina.\n- 08 de julio al 02 de agosto: Periodo de vacaciones estudiantes de pregrado, todas las carreras, excepto carrera de Derecho.\n- 12: Término del primer semestre académico 2024, carrera de Derecho y todas aquellas carreras con asignaturas que cuenten con prueba optativa.\n- 15 de julio al 02 de agosto: Periodo de vacaciones estudiantes carrera de Derecho.\n- 15 al 26: Periodo de vacaciones estudiantes carrera de Derecho.\n- 20 de julio al 04 de agosto: Temporada extraordinaria de exámenes, asignaturas semestrales, carrera de Derecho.\n- 12: Inscripción obligatoria de actividades curriculares segundo semestre 2024, vía intranet."
+      ]
+    },
+    {
+      "tag": "calendario_agosto",
+      "patterns": [
+        "¿Qué actividades hay en agosto?",
+        "Calendario de agosto 2024",
+        "Eventos en agosto 2024"
+      ],
+      "responses": [
+        "Actividades en agosto 2024:\n- 05: Inicio del segundo semestre académico 2024, todas las carreras, y reanudación de asignaturas anuales de la carrera de Derecho."
+      ]
+    },
+    {
+      "tag": "calendario_septiembre",
+      "patterns": [
+        "¿Qué actividades hay en septiembre?",
+        "Calendario de septiembre 2024",
+        "Eventos en septiembre 2024"
+      ],
+      "responses": [
+        "Actividades en septiembre 2024:\n- 16, 17 y 20: Suspensión de clases, a excepción de prácticas e internados."
+      ]
+    },
+    {
+      "tag": "calendario_octubre",
+      "patterns": [
+        "¿Qué actividades hay en octubre?",
+        "Calendario de octubre 2024",
+        "Eventos en octubre 2024"
+      ],
+      "responses": [
+        "Actividades en octubre 2024:\n- 04: Última fecha para registrar primeras evaluaciones, todas las carreras."
+      ]
+    },
+    {
+      "tag": "calendario_noviembre",
+      "patterns": [
+        "¿Qué actividades hay en noviembre?",
+        "Calendario de noviembre 2024",
+        "Eventos en noviembre 2024"
+      ],
+      "responses": [
+        "Actividades en noviembre 2024:\n- 29: Término del segundo semestre académico 2024, para todas aquellas carreras con asignaturas que no cuenten con prueba optativa."
+      ]
+    },
+    {
+      "tag": "calendario_diciembre",
+      "patterns": [
+        "¿Qué actividades hay en diciembre?",
+        "Calendario de diciembre 2024",
+        "Eventos en diciembre 2024"
+      ],
+      "responses": [
+        "Actividades en diciembre 2024:\n- 02: Inicio periodo de vacaciones estudiantes de pregrado, todas las carreras, excepto carrera de Derecho.\n- 02 al 13: Periodo de examen acumulativo y de repetición carrera de Medicina.\n- 06: Término del segundo semestre académico 2024, carrera de Derecho y todas aquellas carreras con asignaturas que cuenten con prueba optativa.\n- 09: Aniversario Universidad de Tarapacá.\n- 09: Inicio periodo de vacaciones estudiantes carrera de Derecho."
+      ]
+    },
+    {
+      "tag": "calendario_febrero_2025",
+      "patterns": [
+        "¿Qué actividades hay en febrero 2025?",
+        "Calendario de febrero 2025",
+        "Eventos en febrero 2025"
+      ],
+      "responses": [
+        "Actividades en febrero 2025:\n- 03: Inicio receso de actividades académicas."
+      ]
+    },
+    {
+      "tag": "calendario_marzo_2025",
+      "patterns": [
+        "¿Qué actividades hay en marzo 2025?",
+        "Calendario de marzo 2025",
+        "Eventos en marzo 2025"
+      ],
+      "responses": [
+        "Actividades en marzo 2025:\n- 03: Inicio de actividades académicas, año 2025.\n- 04 al 14: Temporada extraordinaria exámenes año 2024, carrera de Derecho, plan anual y semestral."
+      ]
+    },
+    {
+      "tag": "consulta_pago",
+      "patterns": [
+        "¿Qué métodos de pago aceptan?",
+        "¿Cómo puedo pagar?",
+        "¿Se puede pagar con tarjeta?",
+        "Formas de pago disponibles",
+        "¿Aceptan PayPal?",
+        "Opciones de pago",
+        "¿Puedo pagar en efectivo?",
+        "¿Aceptan pagos en cuotas?",
+        "¿Ofrecen financiamiento?"
+      ],
+      "responses": [
+        "Aceptamos pagos con tarjeta de crédito, débito, y PayPal.",
+        "Puedes pagar usando varios métodos seguros, incluyendo tarjeta de crédito, débito y PayPal.",
+        "Para realizar el pago, selecciona el método que prefieras durante el proceso de compra.",
+        "Ofrecemos múltiples formas de pago para tu comodidad.",
+        "Aceptamos pagos en efectivo, tarjetas de crédito y débito, PayPal, y transferencias bancarias."
+      ]
+    },
+    {
+      "tag": "horario_gregorio_paz_segura",
+      "patterns": [
+        "¿Cuál es el horario del profesor Gregorio Paz Segura?",
+        "Horario del profesor Gregorio Paz Segura",
+        "¿Qué clases tiene el profesor Gregorio Paz Segura?",
+        "¿Cuándo enseña Gregorio Paz Segura?",
+        "Clases de Gregorio Paz Segura",
+        "¿En qué sala enseña el profesor Gregorio Paz Segura?",
+        "Horario de Gregorio Paz Segura segundo semestre 2024"
+      ],
+      "responses": [
+        "El horario del profesor Gregorio Paz Segura para el segundo semestre 2024 es:\n\nLunes:\n- 11:20 a 12:50 hrs: Macroeconomía en Sala Indus 1\n- 14:45 a 16:20 hrs: Contabilidad y Costos A en Sala 303, Aulario C\n- 16:20 a 17:50 hrs: Contabilidad y Costos A en Sala 303, Aulario C\n- 21:00 a 22:30 hrs: Contabilidad y Costos A (Vespertina) en Sala Indus 3\n\nMiércoles:\n- 11:20 a 12:50 hrs: Macroeconomía en Sala Indus 1\n- 19:30 a 21:00 hrs: Microeconomía en Sala Indus 1\n- 21:00 a 22:30 hrs: Contabilidad y Costos A (Vespertina) en Sala Indus 3\n\nViernes:\n- 19:30 a 21:00 hrs: Microeconomía en Sala Indus 1"
+      ]
+    },
+    {
+      "tag": "politica_privacidad",
+      "patterns": [
+        "¿Cuál es su política de privacidad?",
+        "¿Cuál es su política de protección de datos?",
+        "¿Cómo manejan mis datos?",
+        "¿Qué hacen con mi información personal?",
+        "Protección de datos personales",
+        "¿Cómo protegen mi privacidad?",
+        "¿Qué hacen con los datos que recolectan?"
+      ],
+      "responses": [
+        "Puedes leer nuestra política de privacidad en https://www.ejemplo.com/politica_privacidad.",
+        "Nuestra política de privacidad garantiza la protección de tus datos personales. Más información en https://www.ejemplo.com/politica_privacidad.",
+        "Nos tomamos muy en serio la privacidad de nuestros usuarios. Consulta todos los detalles en nuestra política de privacidad.",
+        "Tu información personal se maneja con la máxima confidencialidad y seguridad."
+      ]
+    },
+    {
+      "tag": "consulta_precios",
+      "patterns": [
+        "¿Cuánto cuesta?",
+        "precio de",
+        "¿Cuál es el costo?",
+        "precio del producto",
+        "Costo de",
+        "Precio actual de",
+        "Precios y tarifas",
+        "¿Cuánto cuesta este artículo?",
+        "¿Cuál es el precio de este producto?"
+      ],
+      "responses": [
+        "El precio depende del producto. ¿Podrías especificar cuál?",
+        "Los precios varían según el producto. ¿Puedes decirme cuál?",
+        "Para proporcionarte el precio, necesito que me digas qué producto estás buscando.",
+        "Dinos el nombre del producto para darte el precio exacto.",
+        "Los precios pueden variar. ¿Podrías darme más detalles sobre el producto que te interesa?"
+      ]
+    },
+    {
+      "tag": "precio_papa",
+      "patterns": [
+        "precio de una papa",
+        "¿Cuánto cuesta la papa?",
+        "precio por kilo de papa",
+        "costo de la papa",
+        "precio papa",
+        "Precio del kilo de papa",
+        "¿Cuál es el precio de la papa?",
+        "¿Cuánto está la papa?"
+      ],
+      "responses": [
+        "El precio de la papa es de X por kilo.",
+        "Actualmente, la papa cuesta X por kilo.",
+        "El costo de la papa es X. ¿Te gustaría saber el precio de otro producto?",
+        "La papa tiene un precio de X por kilo en este momento.",
+        "El precio por kilo de papa es X."
+      ]
+    },
+    {
+      "tag": "ayuda_tecnica",
+      "patterns": [
+        "Necesito ayuda técnica",
+        "Tengo un problema técnico",
+        "Soporte técnico",
+        "Error en la página",
+        "Problema con la web",
+        "Problema con el sitio",
+        "El sitio no funciona",
+        "No puedo acceder a la página",
+        "La página está caída"
+      ],
+      "responses": [
+        "Nuestro equipo de soporte técnico está aquí para ayudarte. ¿Puedes describir el problema?",
+        "Lo siento por los inconvenientes. ¿Podrías darme más detalles sobre el problema técnico que estás experimentando?",
+        "Estamos aquí para ayudarte. ¿Qué problema técnico estás enfrentando?",
+        "Por favor, describe el problema que estás teniendo y te ayudaremos a solucionarlo.",
+        "Estamos trabajando para resolver cualquier problema técnico. ¿Puedes darnos más detalles?"
+      ]
+    },
+    {
+      "tag": "consulta_horarios",
+      "patterns": [
+        "¿Cuáles son sus horarios de atención?",
+        "¿Cuándo están abiertos?",
+        "Horarios de atención",
+        "¿A qué hora abren?",
+        "¿A qué hora cierran?",
+        "¿Cuáles son sus horas de operación?",
+        "Horario de la tienda",
+        "Horas de servicio"
+      ],
+      "responses": [
+        "Nuestros horarios de atención son de lunes a viernes, de 9:00 AM a 6:00 PM.",
+        "Estamos abiertos de lunes a viernes, de 9:00 AM a 6:00 PM.",
+        "Puedes visitarnos en nuestro horario de atención: de lunes a viernes, de 9:00 AM a 6:00 PM.",
+        "Nuestros horarios de operación son de lunes a viernes, de 9:00 AM a 6:00 PM.",
+        "Atendemos de lunes a viernes, de 9:00 AM a 6:00 PM."
+      ]
+    },
+    {
+      "tag": "consulta_ubicacion",
+      "patterns": [
+        "¿Dónde están ubicados?",
+        "Ubicación de la tienda",
+        "¿Dónde puedo encontrarlos?",
+        "¿Dónde están?",
+        "Dirección de la tienda",
+        "¿Cómo llegar a la tienda?",
+        "¿Cuál es la dirección de la tienda?",
+        "¿Dónde está la tienda?"
+      ],
+      "responses": [
+        "Estamos ubicados en [dirección].",
+        "Nuestra tienda se encuentra en [dirección].",
+        "Puedes visitarnos en [dirección].",
+        "Nuestra ubicación es [dirección].",
+        "Estamos localizados en [dirección]. ¿Cómo podemos ayudarte?"
+      ]
+    },
+    {
+      "tag": "consulta_contacto",
+      "patterns": [
+        "¿Cómo puedo contactarlos?",
+        "Información de contacto",
+        "¿Cómo puedo comunicarme con ustedes?",
+        "Número de contacto",
+        "¿Tienen un número de teléfono?",
+        "¿Cómo puedo enviar un correo?"
+      ],
+      "responses": [
+        "Puedes contactarnos por teléfono al [número de teléfono] o enviarnos un correo a [correo electrónico].",
+        "Para contactarnos, llama al [número de teléfono] o envía un correo a [correo electrónico].",
+        "Nuestra línea de atención al cliente es [número de teléfono] y nuestro correo es [correo electrónico]."
+      ]
+    },
+    {
+      "tag": "horario_modelos_estocasticos",
+      "patterns": [
+        "¿Cuál es el horario de modelos estocásticos?",
+        "Horario de modelos estocásticos",
+        "¿Cuándo toca modelos estocásticos?"
+      ],
+      "responses": [
+        "El horario de IN064 - Modelos Estocásticos es:\n\nCátedra (Cat B):\n- Martes 16:20 a 17:50 hrs en Sala 304 - Aulario C - Saucache con Juan Antonio Vega Vargas\n- Jueves 16:20 a 17:50 hrs en Sala 304 - Aulario C - Saucache con Juan Antonio Vega Vargas\n\nLaboratorio (Lab C):\n- Miércoles 09:40 a 11:10 hrs en Lab Indus 3 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera"
+      ]
+    },
+    {
+      "tag": "horario_sia",
+      "patterns": [
+        "¿Cuál es el horario de SIA?",
+        "Horario de sistemas de información administrativa",
+        "Horario de IN061",
+        "Horario de SIA"
+      ],
+      "responses": [
+        "El horario de IN061 - Sistemas de Información Administrativa (SIA) es:\n\nCátedra (Cat A):\n\n- Lunes 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera\n- Miércoles 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera"
+      ]
+    },
+    {
+      "tag": "horario_calidad",
+      "patterns": [
+        "¿Cuál es el horario de CALIDAD?",
+        "Horario de sistemas de gestión y calidad",
+        "Horario de IN063",
+        "Horario de sistemas de calidad"
+      ],
+      "responses": [
+        "El horario de IN063 - Sistemas de Gestión y Aseguramiento de la Calidad (CALIDAD) es:\n\nCátedra (Cat A):\n\n- Lunes 08:00 a 09:30 hrs en Sala 304 - Aulario C - Saucache con Raúl Enrique Muñoz Plaza\n- Miércoles 08:00 a 09:30 hrs en Sala 304 - Aulario C - Saucache con Raúl Enrique Muñoz Plaza\n\nLaboratorio (Lab C):\n\n- Viernes 14:45 a 15:30 hrs en Lab Indus 4 - Nuevo Edificio Depto Industrial - Saucache con Vania Francisca Quezada Lara"
+      ]
+    },
+    {
+      "tag": "horario_pep",
+      "patterns": [
+        "¿Cuál es el horario de PEP?",
+        "Horario de preparación y evaluación de proyectos",
+        "Horario de PEP",
+        "Horario de IN062"
+      ],
+      "responses": [
+        "El horario de IN062 - Preparación y Evaluación de Proyectos (PEP) es:\n\nCátedra (Cat A):\n\n- Lunes 11:20 a 12:50 hrs en Sala 101 - Aulario A - Saucache con Italo Andrés Marchioni Choque\n- Miércoles 11:20 a 12:50 hrs en Sala 101 - Aulario A - Saucache con Italo Andrés Marchioni Choque\n\nLaboratorio (Lab C):\n\n- Miércoles 09:40 a 11:10 hrs en Lab Indus 3 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera"
+      ]
+    },
+    {
+      "tag": "horario_econometria",
+      "patterns": [
+        "¿Cuál es el horario de econometría?",
+        "Horario de econometría",
+        "Horario de IN065",
+        "Horario de econometría"
+      ],
+      "responses": [
+        "El horario de IN065 - Econometría es:\n\nCátedra (Cat B):\n\n- Lunes 16:20 a 17:50 hrs en Indus 2 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera\n- Miércoles 16:20 a 17:50 hrs en Indus 2 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera\n\nLaboratorio (Lab B):\n\n- Jueves 08:45 a 09:30 hrs en Lab Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera"
+      ]
+    }
+  ]
+}
