@@ -10,7 +10,7 @@ from keras.optimizers.schedules import ExponentialDecay
 import random
 import pandas as pd
 
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('wordnet')
 
 # Cargar datos locales desde el archivo JSON
